@@ -1,0 +1,7 @@
+{
+    "extends": "clock",
+    "validateIndentation": 4,
+    "validateExtensions": null,
+    "validateAttributeQuoteMarks": null,
+    "disallowIdLiterals": null
+}

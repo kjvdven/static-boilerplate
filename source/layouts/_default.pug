@@ -1,0 +1,38 @@
+block mainVars
+    //- - var metaAuthor = 'Oodit'
+    //- - var metaDefaultTitle = 'Oodit — Digital Creative Company'
+    //- - var ga = { id: 'UA-XXXXXXXX-1', url: 'my-website.nl' }
+    //- - var riskPlanView = false
+    //- - var variant = false
+    //- - var libraryView = false
+    //- - var navPage = ''
+    //- - var nestedPage = ''
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="x-ua-compatible", content="ie=edge")
+        title My title
+        meta(name="description", content="")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+
+        //- css files
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css")
+        link(rel="stylesheet", href="./styles/style.processed.css")
+
+        //- custom css files
+        block css
+
+        //- javascript
+        script(src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js", defer)
+
+    body
+        .main
+            block content
+
+        //- javascript files
+        script(src="/scripts/main.processed.js")
+
+        //- custom javascript files
+        block js
