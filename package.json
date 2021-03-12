@@ -7,7 +7,11 @@
   "license": "UNLICENSED",
   "repository": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@lion/button": "^0.9.1",
+    "@lion/checkbox-group": "^0.14.5",
+    "@lion/input": "^0.11.4"
+  },
   "devDependencies": {
     "pug-lint": "^2.6.0",
     "pug-lint-config-clock": "^2.0.0",
